@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    .grid-container {
+     display: flex;
+    }
+
+    .grid-item {
+      margin: 10px 0;
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+    }
+    .grid-item:first-child{
+        width: 300px;
+    }
+
+    .grid-item:last-child{
+        margin-left: 20px;
+        width: calc(100% - 340px);
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">Column 1</div>
+    <div class="grid-item">Column 2</div>
+    
+  </div>
+</body>
+</html>
