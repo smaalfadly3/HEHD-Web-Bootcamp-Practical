@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0;
+        }
+        .container {
+          display: flex;
+          height: 100px;
+
+        }
+      
+        .column {
+          flex: 1;
+          margin: 10px;
+          background-color: rebeccapurple;
+        }
+      
+        .column:first-child {
+          flex-basis: 20%;
+        }
+      
+        .column:nth-child(2) {
+          flex-basis: 50%;
+        }
+      </style>
+   
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+        </div>
+        <div class="column">
+        </div>
+        <div class="column">
+        </div>
+      </div>
+   
+
+</body>
+</html>
