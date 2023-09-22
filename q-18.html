@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            .container {
+                display: flex;
+                height: 300px;
+            }
+
+            .column {
+                height: 100%;
+                padding: 10px;
+            }
+            .column:first-child{
+                width: 200px;
+                background-color: #FFD700; /
+            }
+            .column:nth-child(2) {
+                width: calc(50% - 200px);
+                flex: 1;
+                background-color: #00CED1; 
+            }
+            .column:last-child{
+                flex: 1;
+                background-color: #FF6347;
+            }           
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+     
+            </div>
+            <div class="column">
+
+            </div>
+            <div class="column">
+
+            </div>
+        </div>
+    </body>
+</html>
